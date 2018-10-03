@@ -308,7 +308,7 @@ public class MethodCollection2
         for (int i = 0; i < k; i++) {
             minIndex = i;
             minValue = a[i];
-            for (int j = i + 1; j < a.length; j--) {
+            for (int j = i + 1; j < a.length; j++) {
                 if (a[j] < minValue) {
                     minIndex = j;
                     minValue = a[j];
@@ -456,7 +456,7 @@ public class MethodCollection2
     {
         int cnt = 0;
         for (int i = 0; i < a.length; i++) {
-            if (a[i] == 0) {
+            if (a[i--] == 0) {
                 cnt++;
             }
         }
