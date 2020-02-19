@@ -23,7 +23,7 @@ Open mujavaCLI.config file and write down the directory of mujava.jar file. e.g.
 Step 5:
 Start command prompt and go to the location where METtester.jar file is.
 Step 5:
-SET classpath by copying 'set CLASSPATH=%CLASSPATH%;C:\mettester\mujava.jar;C:\mettester\openjava.jar;C:\mettester\tools.jar;C:\mettester\commons-io-2.4.jar;C:\mettester\junit.jar;C:\mettester\hamcrest.jar'
+SET classpath by copying 'set CLASSPATH=%CLASSPATH%;C:\METtester\mujava.jar;C:\METtester\lib\openjava.jar;C:\METtester\lib\tools.jar;C:\METtester\lib\commons-io-2.4.jar;C:\METtester\lib\junit.jar;C:\METtester\lib\hamcrest.jar'
 Step 7:
 Type "java -cp .;./src; -jar METtester.jar" & enter
 Step 8:
