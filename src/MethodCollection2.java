@@ -456,7 +456,7 @@ public class MethodCollection2
     {
         int cnt = 0;
         for (int i = 0; i < a.length; i++) {
-            if (a[i--] == 0) {
+            if (a[i] == 0) {
                 cnt++;
             }
         }
@@ -474,30 +474,6 @@ public class MethodCollection2
             }
         }
         return r;
-    }
-
-    public static  boolean[] elementwise_not_equal( int[] a, int[] b )
-    {
-        boolean[] r = new boolean[a.length];
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] != b[i]) {
-                r[i] = true;
-            } else {
-                r[i] = false;
-            }
-        }
-        return r;
-    }
-
-    public static  int hamming_dist( int[] a, int[] b )
-    {
-        int cnt = 0;
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] != b[i]) {
-                cnt++;
-            }
-        }
-        return cnt;
     }
 
 }
