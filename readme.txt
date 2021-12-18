@@ -17,13 +17,13 @@ create a 'src' folder inside the path of the METtester.jar file.
 Step 2:
 Copy the class and the java file under test in the 'src' folder. e.g. MethodCollection2.class & MethodCollection2.java
 Step 3:
-Copy the .XML file in the root directory.
-Step 4:
 Start command prompt and go to the location where METtester.jar file is.
-Step 5:
+Step 4:
 Type "java -cp . -jar METTester.jar" & enter
-Step 6:
+Step 5:
 Type class name to be tested, press enter. E.g. MethodCollection2 
+Step 6:
+Type the method name under test from that class file. e.g. find_median
 Step 7:
-Type the path and file name of the XML and press enter. e.g. C:\METtester\find_median.xml 
+Type the MR names you want to apply on Metamorphic Testing. e.g. ADD,MUL
 
